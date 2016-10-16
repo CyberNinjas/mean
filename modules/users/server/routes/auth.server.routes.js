@@ -19,11 +19,8 @@ module.exports = function (app) {
   app.route('/api/auth/signin').post(users.signin);
   app.route('/api/auth/signout').get(users.signout);
 
-  // Setting the facebook oauth routes
-  app.route('/api/auth/facebook').get(users.oauthCall('facebook', {
-    scope: ['email']
-  }));
-  app.route('/api/auth/facebook/callback').get(users.oauthCallback('facebook'));
+  //Get a list of available strategies
+  app.route('/api/auth/strategies').get(users.getAuthProviders);
 
   // Setting the twitter oauth routes
   app.route('/api/auth/twitter').get(users.oauthCall('twitter'));
