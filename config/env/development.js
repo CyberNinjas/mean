@@ -64,6 +64,13 @@ module.exports = {
     callbackURL: '/api/auth/paypal/callback',
     sandbox: true
   },
+  'azuread-openidconnect' : {
+    clientID: process.env.AZUREAD_OIDC_ID || 'APP_ID',
+    clientSecret: process.env.AZUREAD_OIDC_SECRET || 'APP_SECRET',
+    callbackURL: '/api/auth/azuread-openidconnect/callback',
+    //NOTE: Azure's Passport module requires that the server be running via HTTPS, since this gets pulled into the
+    // callback URL.
+  },
   mailer: {
     from: process.env.MAILER_FROM || 'MAILER_FROM',
     options: {

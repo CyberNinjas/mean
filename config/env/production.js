@@ -78,6 +78,11 @@ module.exports = {
     callbackURL: '/api/auth/paypal/callback',
     sandbox: false
   },
+  'azuread-openidconnect' : {
+    clientID: process.env.AZUREAD_OIDC_ID || 'APP_ID',
+    clientSecret: process.env.AZUREAD_OIDC_SECRET || 'APP_SECRET',
+    callbackURL: '/api/auth/azuread-openidconnect/callback',
+  },
   mailer: {
     from: process.env.MAILER_FROM || 'MAILER_FROM',
     options: {
