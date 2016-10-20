@@ -1,0 +1,106 @@
+html, body {
+	font-family: 'Molengo', sans-serif;
+	color: #666;
+}
+
+.btn {
+	font-family: 'Orbitron', 'Molengo', sans-serif;
+	background-image: none;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 19px 35px 17px 35px;
+	transition: .1s ease-in-out;
+}
+
+.btn-hover {
+	background-color: rgb(10, 118, 167)
+}
+
+.btn-primary {
+	background-color: #25B2F2;
+	border-radius: 3px;
+	color: #000;
+	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.4);
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
+}
+
+h2 {
+	font-family: 'Orbitron', 'Molengo', sans-serif;
+	font-size: 25px;
+	margin: 0
+	padding: 0
+	margin-bottom: 16px;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 26px;
+	font-weight: 300;
+	line-height: 1.625;
+}
+
+.jumboton h1 {
+	color: #FFF;
+	font-size: 30px;
+	line-height: 36px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 25px;
+}
+
+.container {
+	margin: 0 auto !important;
+	width: 90% !important;
+	max-width: 1200px !important;
+	padding: 0 !important;
+}
+@media(max-width: 900px) {
+	.container {
+		width: 100% !important;
+		box-sizing: border-box !important;
+		padding: 20px 5% !important;
+	}
+}
+
+header.navbar {
+	background-image: none;
+	background-color: rgba(0,0,0,.7);
+	height: 48px;
+	line-height: 48px;
+	vertical-align: top;
+}
+
+header.navbar .container {
+	padding-top: 0px !important;
+}
+
+nav {
+	font-size: 16px;
+	font-family: 'Orbitron', 'Molengo', sans-serif;
+	transition: .4s ease-in-out;
+	vertical-align: top;
+}
+.navbar-brand {
+	font-size: 27px;
+	color: #FFF !important;
+	line-height: 48px;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+nav ul {
+	color: #FFF !important;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .25) !important;
+}
+
+.navbar-inverse li a {
+	color: #FFF !important
+}
+
+.navbar-inverse li a:hover {
+	color: #25B2F2 !important;
+}

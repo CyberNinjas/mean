@@ -30,8 +30,13 @@
   <!-- Fav Icon -->
   <link href="/{{favicon}}" rel="shortcut icon" type="image/x-icon">
 
+  <!-- Font Download -->
+  <link href="https://fonts.googleapis.com/css?family=Molengo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
   <!-- Application CSS Files -->
   {{#each cssFiles}}<link rel="stylesheet" href="/{{this}}">{{/each}}
+  <link rel="stylsheet" href="/modules/core/client/css/theme.css">
 </head>
 
 <body class="ng-cloak">
@@ -64,7 +69,7 @@
 
   <!--Application JavaScript Files-->
     {{#each jsFiles}}<script type="text/javascript" src="/{{this}}"></script>{{/each}}
-  
+
   <!--owasp config sync-->
   <script type="text/javascript">
     var sharedConfig = {{{ sharedConfig }}};
