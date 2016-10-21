@@ -8,20 +8,30 @@ html, body {
 	background-image: none;
 	font-size: 18px;
 	font-weight: 500;
+	border-radius: 3px;
 	padding: 19px 35px 17px 35px;
+	margin: 0 35px 10px 0;
 	transition: .1s ease-in-out;
+	line-height: 1.5;
+	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.4);
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
 }
 
-.btn-hover {
-	background-color: rgb(10, 118, 167)
+.btn:hover {
+	border-top: 1px solid rgba(255, 255, 255, 0.4) !important;
+	border-left: 1px solid rgba(255, 255, 255, 0.4) !important;
+	border-right: 1px solid rgba(0, 0, 0, 0.4) !important;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4) !important;
+}
+
+.btn-primary:hover {
+	background-color: #0a76a7;
 }
 
 .btn-primary {
 	background-color: #25B2F2;
 	border-radius: 3px;
 	color: #000;
-	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.4);
-	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
 }
 
 h2 {
@@ -66,8 +76,9 @@ p {
 header.navbar {
 	background-image: none;
 	background-color: rgba(0,0,0,.7);
-	height: 48px;
-	line-height: 48px;
+	background-image: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0) 100%);
+	height: 58px;
+	line-height: 58px;
 	vertical-align: top;
 }
 
@@ -83,10 +94,17 @@ nav {
 }
 .navbar-brand {
 	font-size: 27px;
+	font-family: 'Orbitron', 'Molengo', sans-serif;
 	color: #FFF !important;
-	line-height: 48px;
+	line-height: 58px;
 	margin: 0 !important;
-	padding: 0 !important;
+	padding: 0 0 0 68px !important;
+	font-weight: 900 !important;
+	background-image: url(https://www.cyberninjas.com/wp-content/themes/cyberninja2014/images/logo.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 53px;
+
 }
 
 nav ul {
@@ -94,13 +112,48 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	font-size: 15px;
+	line-height: 58px;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, .25) !important;
 }
 
 .navbar-inverse li a {
-	color: #FFF !important
+	line-height: 58px;
+	color: #FFF !important;
+	margin: 0;
+	padding: 0 10px;
 }
 
 .navbar-inverse li a:hover {
 	color: #25B2F2 !important;
+}
+
+.dropdown-menu {
+	background-color: rgba(0, 0, 0, 0.7) !important;
+	color: #FFF;
+	width: 245px;
+	margin: 0;
+	padding: 0;
+	border: none !important;
+}
+
+.dropdown-menu li a {
+	border-top: none;
+	margin: 0;
+	padding: 16px 20px;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 21px;
+	width: 100%;
+	border-left: 1px solid black !important;
+	border-right: 1px solid black !important;
+	border-bottom: 1px solid black !important;
+	border-top: none !important;
+	cursor: pointer;
+	transition: .1s ease-in-out;
+}
+
+.dropdown-menu li a:hover {
+	background-color: black !important;
+	color: #25B2F2;
+	background-image: none;
 }
