@@ -213,6 +213,10 @@ nav ul {
 	margin-top: 0 !important;
 }
 
+.top-margin-fix {
+	margin-top: -50px !important;
+}
+
 p {
 	font-family: 'Molengo', sans-serif;
 	margin: 0 0 26px 0;
