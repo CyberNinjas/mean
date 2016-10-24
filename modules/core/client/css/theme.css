@@ -6,6 +6,8 @@ html, body {
 .btn {
 	font-family: 'Orbitron', 'Molengo', sans-serif;
 	background-image: none;
+	background-color: #D5D5D5;
+	color: #535353;
 	font-size: 18px;
 	font-weight: 500;
 	border-radius: 3px;
@@ -14,7 +16,11 @@ html, body {
 	transition: .1s ease-in-out;
 	line-height: 1.5;
 	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.4);
-	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+	border-top: 1px solid rgba(255, 255, 255, 0.4);
+	border-left: 1px solid rgba(255, 255, 255, 0.4);
+	border-right: 1px solid rgba(0, 0, 0, 0.4);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
 
 .btn:hover {
@@ -22,16 +28,19 @@ html, body {
 	border-left: 1px solid rgba(255, 255, 255, 0.4) !important;
 	border-right: 1px solid rgba(0, 0, 0, 0.4) !important;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.4) !important;
+	color: #222;
+	background-color: #9D9D9D;
 }
 
 .btn-primary:hover {
 	background-color: #0a76a7;
+	color: #2D2D2D;
 }
 
 .btn-primary {
 	background-color: #25B2F2;
 	border-radius: 3px;
-	color: #000;
+	color: #2D2D2D;
 }
 
 h1 {
@@ -163,4 +172,49 @@ nav ul {
 	background-color: black !important;
 	color: #25B2F2;
 	background-image: none;
+}
+
+.jumbotron {
+	box-sizing: border-box;
+	width: 100% !important;
+	max-width: none !important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(https://www.cyberninjas.com/wp-content/uploads/2013/12/hero-ninja.jpg);
+	margin: 0;
+	padding: 170px 0;
+}
+
+.jumbotron h1 {
+	font-size: 30px;
+	margin: 0 0 25px 0;
+	color: #FFF;
+	text-shadow: 1px 1px 1px black;
+	line-height: 1.2;
+}
+
+.jumbotron p {
+	font-family: 'Molengo', sans-serif;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 29.25px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 26px;
+	text-shadow: 1px 1px 1px black;
+}
+
+.content {
+	margin-top: 0 !important;
+}
+
+p {
+	font-family: 'Molengo', sans-serif;
+	margin: 0 0 26px 0;
+	padding: 0;
+	font-size: 16px;
+	color: #666;
+	font-weight: 300;
 }
