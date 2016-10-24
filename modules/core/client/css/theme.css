@@ -56,6 +56,8 @@ h2 {
 	margin: 0
 	padding: 0
 	margin-bottom: 16px;
+	color: #333;
+	font-weight: bolder;
 }
 
 p {
@@ -115,7 +117,7 @@ nav {
 	line-height: 58px;
 	margin: 0 !important;
 	padding: 0 0 0 68px !important;
-	font-weight: 900 !important;
+	font-weight: bolder !important;
 	background-image: url(https://www.cyberninjas.com/wp-content/themes/cyberninja2014/images/logo.png);
 	background-position: left;
 	background-repeat: no-repeat;
@@ -137,6 +139,7 @@ nav ul {
 	color: #FFF !important;
 	margin: 0;
 	padding: 0 10px;
+	cursor: pointer;
 }
 
 .navbar-inverse li a:hover {
@@ -206,7 +209,7 @@ nav ul {
 	text-shadow: 1px 1px 1px black;
 }
 
-.content {
+.no-top-margin-fix {
 	margin-top: 0 !important;
 }
 
@@ -217,4 +220,88 @@ p {
 	font-size: 16px;
 	color: #666;
 	font-weight: 300;
+}
+
+footer {
+	background-color: #222;
+	background-image: url(https://www.cyberninjas.com/wp-content/themes/cyberninja2014/images/footer-ninja.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	color: #FFF;
+	margin: 0;
+	padding: 40px 0 16px 0;
+	margin-top: 40px;
+}
+
+footer p {
+	color: #FFF;
+}
+
+footer h3 {
+	font-family: 'Orbitron', 'Molengo', sans-serif;
+	font-size: 24px;
+	font-weight: bolder;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 16px;
+}
+
+footer h3 img {
+	width: 60px;
+	margin: 0;
+	padding: 0;
+	margin-right: 10px;
+}
+
+footer h4 {
+	font-family: 'Orbitron', 'Molengo', sans-serif;
+	margin: 16px 0 24px 0;
+	font-weight: bolder;
+	letter-spacing: 1px;
+	font-size: 16px;
+}
+
+footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer ul li {
+	margin: 0 0 6px 0;
+	padding: 0;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+footer ul li a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.icon {
+	background-color: #D5D5D5;
+	color: #535353;
+	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.4);
+	font-size: 22px;
+	line-height: 40px;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 1000px;
+	margin: 0 5px 5px 0;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+	border-top: 1px solid rgba(255, 255, 255, 0.4);
+	border-left: 1px solid rgba(255, 255, 255, 0.4);
+	border-right: 1px solid rgba(0, 0, 0, 0.4);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon:hover {
+	color: #222222;
+	background-color: #9D9D9D;
 }
