@@ -310,12 +310,13 @@ footer ul li a {
 	background-color: #9D9D9D;
 }
 
-input, textarea {
+.form-control {
 	display: block;
 	width: 100%;
 	font-size: 16px;
 	line-height: 19px;
 	box-sizing: border-box;
+	height: 51px;
 	padding: 16px;
 	box-shadow: 1px 1px 3px #eee inset;
 	border-radius: 3px;
@@ -326,8 +327,9 @@ input, textarea {
 	border: solid 1px rgb(192, 192, 192);
 }
 
-input:focus, textarea:focus {
+.form-control:focus {
 	border: solid 1px #999;
+	box-shadow: 1px 1px 3px #eee inset;
 }
 
 .select {
