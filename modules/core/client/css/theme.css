@@ -98,7 +98,10 @@ header.navbar {
 	height: 58px;
 	line-height: 58px;
 	vertical-align: top;
+<<<<<<< HEAD
 	border-bottom: none;
+=======
+>>>>>>> CyberNinjasTheme
 }
 
 header.navbar .container {
@@ -366,8 +369,11 @@ select {
 	line-height: 26px;
 	padding: 12px 20px;
 }
+<<<<<<< HEAD
 
 .user-header-dropdown-toggle {
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
 }
+=======
+>>>>>>> CyberNinjasTheme
