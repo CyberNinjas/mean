@@ -365,9 +365,33 @@ select {
 	height: 51px;
 	line-height: 26px;
 	padding: 12px 20px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 .user-header-dropdown-toggle {
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
+}
+
+// Temporary design, please dont take the table design seriously. just until the morning when i find out a reference
+table {
+	margin: 0;
+	padding: 0;
+}
+
+tr {
+	border-bottom: solid 1px #2D2D2D;
+}
+
+th {
+	font-family: 'Orbitron', 'Molengo', sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	padding: 10px 15px;
+}
+
+td {
+	margin: 0;
+	padding: 10px 15px;
 }
