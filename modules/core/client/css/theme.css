@@ -383,7 +383,31 @@ table {
 tr {
 	border-bottom: solid 1px #2D2D2D;
 }
+thead tr {
+	background-color: #25B2F2;
+	border-bottom: none;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
+}
+thead tr th{
+	color: #2D2D2D;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 19px 35px 17px 35px;
+	border: none;
+	border-left: solid 1px #14A1E2;
+	border-right: solid 1px #14A1E2;
+	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.4);
+}
 
+thead tr th:first-of-type {
+	border-top-left-radius: 3px;
+	border: none;
+}
+
+thead tr th:last-of-type {
+	border-top-right-radius: 3px;
+	border: none;
+}
 th {
 	font-family: 'Orbitron', 'Molengo', sans-serif;
 	font-size: 16px;
@@ -394,4 +418,18 @@ th {
 td {
 	margin: 0;
 	padding: 10px 15px;
+	font-size: 16px;
+}
+
+td:last-of-type {
+	text-align: center;
+}
+
+td .progress {
+	margin-bottom: 0;
+}
+
+td .progress .progress-bar {
+	background-image: linear-gradient(to bottom, #25B2F2 0%, #0a76a7 100%) !important;
+	min-width: 28px;
 }
